@@ -1,0 +1,235 @@
+/*font-family: 'Josefin Slab', serif;
+font-family: 'Arima Madurai', cursiva;
+font-family: 'Slab Antic', serif;
+*/
+
+
+#contenidos{
+
+	width: 1000px;
+	height:auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+/*Etiquetas*/
+
+body
+{
+
+	background-image: url(../img/unad.jpg);
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+h1{
+	font-family: 'Josefin Slab', serif;
+color: #ff5900;
+	margin-left: 10px;
+	font-size: 40px;
+	text-align: center;
+
+
+}
+h2{
+font-family: 'Arima Madurai', cursiva;
+color: #006680;
+	margin-left: 20px;
+	font-size: 20px;
+text-align: center;
+	
+
+}
+
+
+h3{
+font-family: 'Slab Antic', serif;
+color: white;
+	font-size: 15px;
+text-align: top;
+margin-left: 10px;}
+	
+h4{
+font-family: 'Arima Madurai', cursiva;
+color: black;
+	margin-left: 10px;
+	font-size: 15px;
+text-align: center;
+}
+
+
+
+header{
+
+	width: 1000px;
+	height: 120px;
+	background:rgb(255,255,255,3,5);
+
+
+}
+
+nav{
+
+	width: 1000px;
+	height: 50px;
+	background:#006680;
+	border-radius: 10px;
+	
+
+
+}
+
+ul{
+
+	margin: center;
+	padding-top: 3px;
+
+
+
+}
+
+li{
+
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #F2B80D;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px blue inset;
+
+}
+
+
+
+
+section{
+
+	width: 700px;
+	background: #006680;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom:20px;
+
+
+}
+
+aside{
+
+	width: 280px;
+	background: #006680;
+	height: 600px;
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px
+
+
+}
+
+footer{
+
+	width: 1000px;
+	height: 50px;
+	background: #FF5900;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px
+}
+
+p{
+
+	font-size:14px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+
+}
+
+
+.banner
+{
+	width: 1000px;
+	height: 200px;
+	border-radius: 10px;
+	margin: auto;
+	
+	background-size: 100% 100%;
+    animation:banner 10s infinite;
+}
+
+
+
+@keyframes banner{
+
+	
+	0%, 20%
+	{
+
+		background-image: url(../img/descarga.jpg);
+		
+		opacity: 1;
+	}
+
+	21%, 24%
+
+	{opacity: 0,1;}
+
+	25%, 45% 
+	{ 
+		background-image: url(../img/inge_sistemas.jpg);
+		opacity: 1;
+
+	}
+	46%, 49%
+
+	{opacity: 0,1;}
+
+	
+    50%, 70%
+    
+	{
+		
+     background-image: url(../img/LogoUnad.jpg);
+     opacity: 1;
+
+	}
+
+    71%, 74% 
+
+    {opacity: 0,1;}
+
+    75%, 100%
+	{ 
+		background-image: url(../img/Software.jpg);
+	opacity: 1;
+
+	}
+
+	
+
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970;}
+
+.menu:link{ color:white; text-decoration:none;}
+.menu:visited{color:white; text-decoration:none;}
+.menu:hover{color:white; text-decoration:none;text-shadow:0 0 15px green;}
+.menu:active{color:white; text-decoration:none;}
+
+/*Seudo Clase*/
+
+li:hover{background: :blue;
+box-shadow:0 0 10px blue inset; }
+
+
+
+
+
